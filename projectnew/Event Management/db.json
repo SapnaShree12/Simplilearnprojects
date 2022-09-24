@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "suki",
+      "lastName": "rs",
+      "email": "suki@gmail.com",
+      "mobile": "9585077452",
+      "salary": "300000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "sapna",
+      "email": "sapna@gmail.com",
+      "password": "1234",
+      "mobile": 9944789863,
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
