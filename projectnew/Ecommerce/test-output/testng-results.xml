@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T10:50:47 IST" name="Default suite" finished-at="2022-10-11T10:53:41 IST" duration-ms="174338">
+    <groups>
+      <group name="Chrome">
+        <method signature="Automation.LaunchChrome()[pri:0, instance:Ecommerce.Automation@5dd6264]" name="LaunchChrome" class="Ecommerce.Automation"/>
+        <method signature="Automation.f()[pri:0, instance:Ecommerce.Automation@5dd6264]" name="f" class="Ecommerce.Automation"/>
+      </group> <!-- Chrome -->
+      <group name="Firefox">
+        <method signature="Automation.LaunchFirefox()[pri:0, instance:Ecommerce.Automation@5dd6264]" name="LaunchFirefox" class="Ecommerce.Automation"/>
+        <method signature="Automation.firefox()[pri:0, instance:Ecommerce.Automation@5dd6264]" name="firefox" class="Ecommerce.Automation"/>
+      </group> <!-- Firefox -->
+    </groups>
+    <test started-at="2022-10-11T10:50:47 IST" name="Default test" finished-at="2022-10-11T10:53:41 IST" duration-ms="174338">
+      <class name="Ecommerce.Automation">
+        <test-method signature="LaunchChrome()[pri:0, instance:Ecommerce.Automation@5dd6264]" started-at="2022-10-11T10:50:47 IST" name="LaunchChrome" finished-at="2022-10-11T10:50:49 IST" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method signature="LaunchFirefox()[pri:0, instance:Ecommerce.Automation@5dd6264]" started-at="2022-10-11T10:50:49 IST" name="LaunchFirefox" finished-at="2022-10-11T10:50:53 IST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFirefox -->
+        <test-method signature="f()[pri:0, instance:Ecommerce.Automation@5dd6264]" started-at="2022-10-11T10:50:53 IST" name="f" finished-at="2022-10-11T10:51:43 IST" depends-on-methods="Ecommerce.Automation.LaunchChrome" duration-ms="49194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="firefox()[pri:0, instance:Ecommerce.Automation@5dd6264]" started-at="2022-10-11T10:51:43 IST" name="firefox" finished-at="2022-10-11T10:53:41 IST" depends-on-methods="Ecommerce.Automation.LaunchFirefox" duration-ms="118840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+      </class> <!-- Ecommerce.Automation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
